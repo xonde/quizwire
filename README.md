@@ -1,2 +1,2 @@
-# xonde.github.io
+# Quizwire
 A Quiz website for Career Foundations
