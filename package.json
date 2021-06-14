@@ -5,7 +5,8 @@
   "private": "true",
   "dependencies": {
     "@types/jquery": "^3.5.5",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "npm-watch": "^0.10.0"
   },
   "devDependencies": {
     "css-loader": "^5.2.6",
@@ -18,7 +19,16 @@
     "webpack-cli": "^4.7.2",
     "webpack-glob": "^2.0.2"
   },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "ts,scss"
+    }
+  },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "npm-watch"
   }
 }
