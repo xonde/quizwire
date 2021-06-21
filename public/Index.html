@@ -7,6 +7,24 @@
     <div class="a">
         <img src="C:\Users\J\Documents\GitHub\quizwire\images\QuizQuestfinaled.png" alt="QuizWire Logo" width="250" height="100">
     </div>
-    <p id="questions"></p>
+    <div class="quiz-selector">
+        <h2>Quiz Selector</h2>
+        <p id="category">
+            <label for="categorySelect">Category :</label><br>
+            <input type="text" id="categorySelect" name="categorySelect" value="Any"><br>
+        </p>
+        <p id="question">
+            <label for="questionAmount">Question Amount : </label><br>
+            <input type="number" id="questionAmount" name="questionAmount" step="1">
+        </p>
+        <p id="difficulty">
+            <label for="difficultySelect"><br>Difficulty : </label>
+            <select id="difficultySelect" name="difficultySelect" value="Any">
+                <option value="any">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="Hard">Hard</option></select>
+        </p>
+    </div>
 </body>
 </html>

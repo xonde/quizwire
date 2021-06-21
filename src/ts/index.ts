@@ -36,6 +36,7 @@ const dataHandler = (data: OpenTriviaResponse) => {
         // })
     };
     $("#questions").html(myText)
+    
 }
 
 
