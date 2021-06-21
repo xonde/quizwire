@@ -1,9 +1,12 @@
+body{
+    background: #7E77D6
+}
 head{
     background: #590378;
 }
 p {
     color: rgb(0, 0, 0);
-    background: #7e77d6;
+    background: #c4c4c4;
     border: 1px solid black;
     margin-left: 20%;
     margin-right: 20%;
@@ -30,7 +33,7 @@ select{
     background: #ffffff;
 }
 div.quiz-selector{
-    background: #7e77d6;
+    background: #c4c4c4;
     text-align: center;
     margin-top: 0px;
     margin-left: 37%;
@@ -38,3 +41,12 @@ div.quiz-selector{
     border: 2px solid black;
     border-top: none;
 }
+
+.submitButton {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
