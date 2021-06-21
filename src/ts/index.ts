@@ -38,7 +38,6 @@ const dataHandler = (data: OpenTriviaResponse) => {
     $("#questions").html(myText)
 }
 
-
 $.get("https://opentdb.com/api.php?amount=10", dataHandler)
 
 $(() => {

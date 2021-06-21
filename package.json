@@ -6,7 +6,8 @@
   "dependencies": {
     "@types/jquery": "^3.5.5",
     "jquery": "^3.6.0",
-    "npm-watch": "^0.10.0"
+    "npm-watch": "^0.10.0",
+    "opentdb-api": "^1.0.0"
   },
   "devDependencies": {
     "css-loader": "^5.2.6",
