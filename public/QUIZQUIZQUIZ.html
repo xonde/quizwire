@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+</head>
+<body>
+
+<div class="header">
+  <h1>QUIZ QUEST</h1>
+</div>
+   
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Blog</a>
+  <a href="#">Quiz Selector</a>
+ 
+</div>
+
+<div class="navbar">
+    
+     <div class ="dropdown">
+        <span>Social Media</span>
+        <div class="dropdown-content">
+          <button onclick="document.location='default.asp'">Instagram </button>
+          <button onclick="document.location='default.asp'">Twitch </button>
+           <button onclick="document.location='default.asp'">Discord </button>
+           <button onclick="document.location='default.asp'">Youtube </button>
+    </div>
+
+<div class="row">
+  <div class="column">
+    <div class="quiz-selector">
+        <h2>Quiz Selector</h2>
+        <p id="category">
+            <label for="categorySelect">Category :</label><br>
+            <input type="text" id="categorySelect" name="categorySelect" value="Any"><br>
+        </p>
+        <p id="question">
+            <label for="questionAmount">Question Amount : </label><br>
+            <input type="number" id="questionAmount" name="questionAmount" step="1" max="20" min="1">
+        </p>
+        <p id="difficulty">
+            <label for="difficultySelect">Difficulty :<br> </label>
+            <select id="difficultySelect" name="difficultySelect" value="Any">
+                <option value="any">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="Hard">Hard</option></select>
+        </p>
+        <input id="button" type="submit" name="button" value="Submit Filters"/>
+    </div>
+    </p>
+  </div>
+  
+  <div class="column">
+   <h2>Pokemon Quiz Easy</h2>
+    <p>What is the name of this pokemon ?
+    <br>
+    <br>
+    <button onclick="document.location='default.asp'">Eevee </button>
+    
+     <button onclick="document.location='default.asp'">Snorlax </button>
+    
+    <button onclick="document.location='default.asp'">Ditto</button>
+    
+    </p>
+  </div>
+  <div class="row">
+  <div class="column">
+    <img src="pic_trulli.jpg" alt="Pokemon">
+  </div>
+  
+  <div class="column">
+   
+    <p> <button onclick="document.location='default.asp'">Submit </button>
+      <button onclick="document.location='default.asp'">Skip </button></p>
+  </div>
+</div>
+
+</body>
+</html>
+
