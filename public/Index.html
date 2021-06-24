@@ -1,7 +1,75 @@
+<!doctype html>
 <html>
-<head>
+<head></head>
     <title>QuizQuest</title>
     <script src="../dist/bundle.js"></script>
+    <style>
+        body{
+            background: #7E77D6
+        }
+        head{
+            background: #590378;
+        }
+        p {
+            color: rgb(0, 0, 0);
+            background: #c4c4c4;
+            border: 1px solid black;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        h2 {
+            background-color: none;
+            border: 2px solid black;
+            padding-top: -10px;
+            margin-top: -2;
+            margin-left: -2;
+            margin-right: -1;
+            
+        }
+        div.a {
+            background-color: #590378;
+            text-align: center;
+            border: 2px solid black;
+            margin-bottom: 0px;
+        }
+        select{
+            background: #ffffff;
+        }
+        div.quiz-selector{
+            background: #c4c4c4;
+            text-align: center;
+            margin-top: 0px;
+            margin-left: 15%;
+            margin-right: 15%;
+            padding-bottom: 40px;
+            border: 2px solid black;
+            border-top: none;
+        }
+
+        type.submit{
+            text-align: center;
+            margin-left: 30%;
+            padding-top: 1px;
+            padding-right: 6px;
+            padding-bottom: 1px;
+            padding-left: 40px;
+        }
+
+        div.mainBox{
+            background: #c4c4c4;
+            margin-top: 20%;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        #currentQues{
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: center;
+        }
+        #questionHeader{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div class="a">
@@ -11,15 +79,16 @@
     </div>
     <div class="quiz-selector">
         <h2>Quiz Selector</h2>
-        <p id="category">
-            <label for="categorySelect">Category :</label><br>
-            <input type="text" id="categorySelect" name="categorySelect" value="Any"><br>
+        <p>
+            <select id="chooseCategory">
+
+            </select>
         </p>
-        <p id="question">
+        <p id="chooseQuestion">
             <label for="questionAmount">Question Amount : </label><br>
-            <input type="number" id="questionAmount" name="questionAmount" step="1">
+            <input type="number" id="questionAmount" name="questionAmount" step="1" max="20" min="1">
         </p>
-        <p id="difficulty">
+        <p id="chooseDifficulty">
             <label for="difficultySelect">Difficulty :<br> </label>
             <select id="difficultySelect" name="difficultySelect" value="Any">
                 <option value="any">Any</option>
@@ -27,6 +96,8 @@
                 <option value="medium">Medium</option>
                 <option value="Hard">Hard</option></select>
         </p>
+
+        <input id="button" type="submit" name="button" value="Submit Filters"/>
     </div>
 </body>
 </html>

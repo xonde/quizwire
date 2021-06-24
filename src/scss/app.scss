@@ -4,7 +4,7 @@ body{
 head{
     background: #590378;
 }
-p {
+p   {
     color: rgb(0, 0, 0);
     background: #c4c4c4;
     border: 1px solid black;
@@ -32,21 +32,31 @@ div.a {
 select{
     background: #ffffff;
 }
-div.quiz-selector{
+.quiz-selector{
     background: #c4c4c4;
     text-align: center;
     margin-top: 0px;
-    margin-left: 37%;
-    margin-right: 37%;
+    margin-left: 60%;
+    margin-right: 60%;
+    padding-bottom: 40px;
     border: 2px solid black;
     border-top: none;
 }
 
-.submitButton {
-    margin: 0;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+
+
+div.mainBox{
+    background: #c4c4c4;
+
+}
+#currentQues{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+#questionHeader{
+    text-align: center;
+}
+#chooseCategory{
+    text-align: center;
+}
